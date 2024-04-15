@@ -1,4 +1,4 @@
-PR Type
+## PR Environment
 - [ ] Acceptance - (Deployed to test environment following merge)
   - Please apply the `acceptance` label to this pull request
   - Remember to remove any `no-build` labels _before_ merging. Not every repository has them
@@ -11,13 +11,20 @@ PR Type
 ## Pull Request Description
 <!--Please describe your change-->
 
-Resolves # <!--Issue # here-->
+## Associated work item(s)
+<!--Work item links-->
 
-## Checks
+## Custom Deployment Steps
+<!-- custom deployment steps here (if any) -->
 
-- [ ] Team completed a reasonable F.D.C (Feature Design Committee)
-- [ ] QA has completed reasonable test pass
-- [ ] PR description contains information about any settings changes
-  - [ ] ConfigMaps have been updated with non-sensitive settings changes
-  - [ ] DevOps is aware of sensitive settings changes
-- [ ] PR description contains a checklist of any additional deployment steps beyond application build/deployment (i.e. infrastructure or database updates)
+## Associated Unit Tests
+- [ ] Unit tests not needed
+- [ ] Unit tests in progress (only allowed for acceptance merges)
+- [ ] Unit tests complete
+
+## Reviewers
+- [ ] QA has completed reasonable testing
+- [ ] Unit tests cover new functionality
+- [ ] Custom deployment steps are listed if they exist
+- [ ] ConfigMaps have been updated with non-sensitive settings changes
+- [ ] DevOps is aware of sensitive settings changes / custom deployment steps
