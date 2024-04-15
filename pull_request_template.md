@@ -14,13 +14,15 @@
 ## Associated work item(s)
 <!--Work item links-->
 
-## Custom Deployment Steps
+## Custom/Post Deployment Steps
 <!-- custom deployment steps here (if any) -->
 
 ## Associated Unit Tests
-- [ ] Unit tests not needed
-- [ ] Unit tests in progress (only allowed for acceptance merges)
-- [ ] Unit tests complete
+- [ ] existing unit tests pass locally with my changes
+
+- [ ] New tests not needed
+- [ ] New tests in progress (acceptance only)
+- [ ] New tests complete
 
 ## Reviewers
 - [ ] QA has completed reasonable testing
