@@ -1,3 +1,6 @@
+## Associated work item(s)
+<!--Work item links-->
+
 ## PR Environment
 - [ ] Acceptance - (Deployed to test environment following merge)
   - Please apply the `acceptance` label to this pull request
@@ -11,15 +14,11 @@
 ## Pull Request Description
 <!--Please describe your change-->
 
-## Associated work item(s)
-<!--Work item links-->
-
 ## Custom/Post Deployment Steps
 <!-- custom deployment steps here (if any) -->
 
 ## Associated Unit Tests
 - [ ] existing unit tests pass locally with my changes
-
 - [ ] New tests not needed
 - [ ] New tests in progress (acceptance only)
 - [ ] New tests complete
